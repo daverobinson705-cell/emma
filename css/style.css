@@ -1,12 +1,4 @@
-/* ==========================================
-   GOOGLE FONTS
-========================================== */
-
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
-
-/* ==========================================
-   RESET
-========================================== */
 
 * {
     margin: 0;
@@ -47,10 +39,6 @@ select {
     font-family: inherit;
 }
 
-/* ==========================================
-   VARIABLES
-========================================== */
-
 :root {
 
     --primary: #9c7a45;
@@ -74,15 +62,9 @@ select {
 
 }
 
-/* ==========================================
-   CONTAINER
-========================================== */
-
 .container {
-
     width: min(1180px, 90%);
     margin: auto;
-
 }
 
 .section {
@@ -92,27 +74,18 @@ select {
 }
 
 .subtitle {
-
     display: inline-block;
-
     color: var(--primary);
-
     font-size: .9rem;
-
     text-transform: uppercase;
-
     letter-spacing: 3px;
-
     margin-bottom: 15px;
-
+    margin-top: 15px;
 }
 
 .section-heading {
-
     text-align: center;
-
     margin-bottom: 70px;
-
 }
 
 .section-heading h2 {
@@ -137,50 +110,30 @@ select {
 
 }
 
-/* ==========================================
-   BUTTONS
-========================================== */
-
 .btn {
-
     display: inline-flex;
-
     align-items: center;
-
     justify-content: center;
-
     padding: 16px 36px;
-
     border-radius: 50px;
-
     font-weight: 600;
-
     transition: var(--transition);
-
+    width: 100%;
 }
 
 .btn-primary {
-
     background: var(--primary);
-
     color: #fff;
-
 }
 
 .btn-primary:hover {
-
     background: var(--primary-dark);
-
     transform: translateY(-3px);
-
 }
 
 .btn-outline {
-
     border: 1px solid var(--primary);
-
     color: var(--primary);
-
 }
 
 .btn-outline:hover {
@@ -303,138 +256,83 @@ header {
 
 }
 
-/* ==========================================
-   HERO
-========================================== */
 
 .hero {
-
     min-height: 100vh;
-
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     align-items: center;
-
     gap: 80px;
-
     width: min(1180px, 90%);
-
     margin: auto;
-
     padding-top: 120px;
-
 }
 
 .hero-text span {
-
     color: var(--primary);
-
     letter-spacing: 3px;
-
     text-transform: uppercase;
 
 }
 
 .hero-text h1 {
-
     font-family: 'Cormorant Garamond', serif;
-
-    font-size: 5rem;
-
-    line-height: 1.1;
-
+    font-size: 3rem;
+    line-height: 1.0;
     margin: 25px 0;
-
 }
 
 .hero-text p {
-
     color: var(--text-light);
-
     max-width: 520px;
-
     margin-bottom: 40px;
 
 }
 
 .hero-buttons {
-
     display: flex;
-
     gap: 20px;
-
 }
 
 .hero-image {
-
     border-radius: 30px;
-
     overflow: hidden;
-
     box-shadow: var(--shadow);
-
 }
 
 .hero-image img {
-
     height: 720px;
-
     object-fit: cover;
-
 }
 
-/* ==========================================
-   ABOUT
-========================================== */
-
 .about-grid {
-
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     gap: 80px;
-
     align-items: center;
-
 }
 
 .about-image {
-
     border-radius: 24px;
-
     overflow: hidden;
-
     box-shadow: var(--shadow);
 
 }
 
 .about-image img {
-
     height: 700px;
-
     object-fit: cover;
-
 }
 
 .about-content h2 {
-
     font-family: 'Cormorant Garamond', serif;
-
     font-size: 3rem;
-
     margin-bottom: 25px;
-
 }
 
 .about-content p {
-
     color: var(--text-light);
-
     margin-bottom: 20px;
-
 }
 
 .about-info {
